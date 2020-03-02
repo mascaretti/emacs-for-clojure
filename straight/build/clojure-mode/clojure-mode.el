@@ -1,0 +1,1 @@
+/home/andrea/emacs-for-clojure/straight/repos/clojure-mode/clojure-mode.el
