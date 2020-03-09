@@ -1,1 +1,0 @@
-/home/andrea/emacs-for-clojure/straight/repos/ido-completing-read-plus/ido-completing-read+.el

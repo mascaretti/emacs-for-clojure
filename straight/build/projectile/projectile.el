@@ -1,1 +1,0 @@
-/home/andrea/emacs-for-clojure/straight/repos/projectile/projectile.el
