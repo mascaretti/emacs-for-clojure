@@ -1,4 +1,6 @@
-;; EMACS CONFIGURATION FOR CLOJURE
+;;; EMACS CONFIGURATION FOR CLOJURE
+
+;;; Code
 (defvar bootstrap-version)
 (let ((bootstrap-file
        (expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))
@@ -26,6 +28,11 @@
 (straight-use-package 'rainbow-delimiters)
 (straight-use-package 'tagedit)
 
+;; Org Journal
+(straight-use-package 'org-journal)
+(customize-set-variable 'org-journal-dir "~/org/journal/")
+(customize-set-variable 'org-journal-date-format "%A, %d %B %Y")
+(require 'org-journal)
 
 ;; Place downloaded elisp files in ~/emacs-for-clojure/vendor. You'll then be able
 ;; to load them.
