@@ -11,3 +11,6 @@ backups
 melpa-stable
 archive-contents
 *.elc
+elpa
+straight
+transient
